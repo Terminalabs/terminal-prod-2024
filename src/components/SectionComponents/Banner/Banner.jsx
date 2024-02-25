@@ -7,6 +7,7 @@ import scrollDown from '@/assets/banner/Rectangle.png'
 import { FaArrowDown } from "react-icons/fa6";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { Link } from "react-scroll";
+import videoBg from "@/assets/banner/hero.mp4"
 
 
 const Banner = () => {
@@ -28,7 +29,7 @@ const Banner = () => {
             muted
             autoPlay
             loop
-            src="https://res.cloudinary.com/dyzbg4knq/video/upload/v1708523295/bsroc9tfrmzv1mmbtkjy.mp4"
+            src={videoBg}
           ></video>
         </div>
 
