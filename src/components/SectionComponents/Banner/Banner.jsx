@@ -23,9 +23,9 @@ const Banner = () => {
     <div className="heroBg overflow-hidden relative -mt-1" id="banner">
       <div className="overflow-hidden w-full max-h-[70vh] md:max-h-[90dvh] flex justify-center items-center relative">
         {/* video */}
-        <div className="w-full h-dvh -mt-1">
+        <div className="w-full h-[80vh] md:h-dvh -mt-1">
           <video
-            className="w-full h-full object-cover"
+            className="w-full h-full object-fill md:object-cover"
             muted
             autoPlay
             loop
