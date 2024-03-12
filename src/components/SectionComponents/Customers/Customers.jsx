@@ -26,18 +26,18 @@ const Customers = () => {
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-5 gap-y-6 md:gap-y-10 md:ml-12 lg:ml-20 xl:ml-0'>
               <img src={logo1} alt="Logo Image" className='w-[120px] md:w-[125px] xl:w-[133px] md:h-[37px] xl:h-[42px]' data-aos="flip-up" data-aos-duration="1500" />
               <img src={logo2} alt="Logo Image" className='w-[130px] md:w-[133px] xl:w-[143px] md:h-[45px] xl:h-[52px]' data-aos="zoom-in" data-aos-duration="1300" />
-              <img src={logo22} alt="Logo Image" className='w-[75px] md:ml-9' data-aos="zoom-in" data-aos-duration="1300" />
-              <img src={logo3} alt="Logo Image" className='w-[120px] md:w-[128px] xl:w-[139px] md:h-[40px] xl:h-[44px]' data-aos="zoom-out" data-aos-duration="1300" />
-              <img src={logo4} alt="Logo Image" className='w-[175px] md:w-[180px] lg:w-[130px] xl:w-[150px] md:h-[45px] xl:h-[48px]' data-aos="zoom-in" data-aos-duration="1300" />
+              <img src={logo22} alt="Logo Image" className='w-[75px] 2xl:w-[85px] md:ml-9 2xl:ml-3 2xl:-mt-2' data-aos="zoom-in" data-aos-duration="1300" />
+              <img src={logo3} alt="Logo Image" className='w-[120px] md:w-[128px] xl:w-[139px] md:h-[40px] xl:h-[44px]  2xl:-ml-7' data-aos="zoom-out" data-aos-duration="1300" />
+              <img src={logo4} alt="Logo Image" className='w-[175px] md:w-[180px] lg:w-[130px] xl:w-[150px] md:h-[45px] xl:h-[48px] 2xl:-ml-5' data-aos="zoom-in" data-aos-duration="1300" />
               <img src={logo5} alt="Logo Image" className='w-[145px] md:w-[152px] xl:w-[162px] md:h-[40px] xl:h-[45px]' data-aos="flip-up" data-aos-duration="1500" />
             </div>
 
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-12 gap-y-6 md:gap-y-10 md:ml-12 md:mx-36 lg:mx-0 lg:ml-20 xl:ml-0 mt-10'>
               <img src={logo6} alt="Logo Image" className='w-[175px] md:w-[180px] xl:w-[199px] md:h-[45px] xl:h-[50px]' data-aos="zoom-in" data-aos-duration="1300" />
-              <img src={logo7} alt="Logo Image" className='w-[180px] md:w-[190px] xl:w-[200px] md:h-[40px] xl:h-[48px] md:ml-10' data-aos="flip-up" data-aos-duration="1500" />
-              <img src={logo8} alt="Logo Image" className='w-[107px] md:w-[117px] xl:w-[128px] md:h-[50px] xl:h-[56px] md:ml-20' data-aos="zoom-out" data-aos-duration="1300" />
-              <img src={logo88} alt="Logo Image" className='w-[180px] md:w-[190px] xl:w-[200px] md:h-[40px] xl:h-[48px]lg:ml-14 2xl:ml-10' data-aos="flip-up" data-aos-duration="1500" />
-              <div className='flex md:justify-end 2xl:justify-center'>
+              <img src={logo7} alt="Logo Image" className='w-[180px] md:w-[190px] xl:w-[200px] md:h-[40px] xl:h-[48px] md:ml-10 lg:ml-5 xl:ml-10 2xl:ml-12' data-aos="flip-up" data-aos-duration="1500" />
+              <img src={logo8} alt="Logo Image" className='w-[107px] md:w-[117px] xl:w-[128px] md:h-[50px] xl:h-[56px] md:ml-20 lg:ml-6 xl:ml-20 2xl:ml-[84px]' data-aos="zoom-out" data-aos-duration="1300" />
+              <img src={logo88} alt="Logo Image" className='w-[180px] md:w-[190px] xl:w-[200px] md:h-[40px] xl:h-[48px] lg:ml-7 xl:ml-14 2xl:ml-10' data-aos="flip-up" data-aos-duration="1500" />
+              <div className='flex md:justify-end 2xl:mr-10'>
                 <img src={logo9} alt="Logo Image" className='w-[85px] md:w-[90px] xl:w-[107px] md:h-[50px] xl:h-[58px]' data-aos="zoom-out" data-aos-duration="1300" />
               </div>
             </div>
